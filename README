@@ -1,0 +1,31 @@
+# Gerador de Exercícios Matemáticos
+
+Este é um projeto desenvolvido em **Laravel** com **Bootstrap** que permite gerar exercícios de matemática com as 4 operações básicas: adição, subtração, multiplicação e divisão. Os exercícios podem ser exportados como arquivo `.txt` ou impressos diretamente.
+
+## Funcionalidades
+
+- Geração de exercícios de matemática nas 4 operações básicas.
+- Personalização da quantidade de exercícios (até 50).
+- Definição do intervalo dos números utilizados nos exercícios (de 0 a 999).
+- Download dos exercícios gerados em formato `.txt`.
+- Opção para impressão direta dos exercícios.
+
+## Tecnologias Utilizadas
+
+- **Backend:** Laravel
+- **Frontend:** Bootstrap
+- **Linguagem:** PHP, HTML, CSS, JavaScript
+
+## Requisitos do Sistema
+
+- PHP 8.1 ou superior
+- Composer
+- Servidor Web (Apache ou Nginx)
+- Banco de dados (opcional, se houver persistência)
+
+## Instalação
+
+1. Clone o repositório para o seu ambiente local:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd <PASTA_DO_PROJETO>
