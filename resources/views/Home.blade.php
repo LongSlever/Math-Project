@@ -62,10 +62,10 @@
 
                 </div>
 
-                <!-- parcelas -->
+                <!-- Números -->
                 <div class="col">
 
-                    <p class="text-info">Parcelas:</p>
+                    <p class="text-info">Números:</p>
 
                     <div class="mb-3">
                         <label for="number_one">Mínimo:</label>
@@ -104,9 +104,18 @@
 
     </form>
 
+    {{-- validation errors--}}
+    @if($errors->any())
+        <div class="container">
+            <div class="row">
+                <alert class="alert alert-danger text-center mt-3">Por favor confira se as operações estão selecionadas. Além disso os números devem ser entre 0 e 999. Os exercícios entre 5 e 50.
+                </alert>
+            </div>
+        </div>
+    @endif
     <!-- footer -->
     <footer class="text-center mt-5">
-        <p class="text-secondary">MathX &copy; <span class="text-info">[ANO]</span></p>
+        <p class="text-secondary">MathProject! &copy; <span class="text-info">{{date('Y')}}</span></p>
     </footer>
 
     <!-- bootstrap -->
